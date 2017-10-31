@@ -2,6 +2,35 @@
   box-sizing: border-box;
   padding: 0;
 }
+ /* Daremos estilo al header */
+
+  .header-lya {
+    /* colocamos el fondo */
+    background-repeat: no-repeat;   /* para que la imagen no repita */
+    background-position: left;   /* para que se coloque hacia la izquierda */
+    background-size: 100% 100%;  /* hace a la imagen el tamaño mas grandes */
+    background-image: url("../assets/images/hero.gif"); /* llamamos a la imagens */
+
+    }
+/* daremos estilo al logo white*/
+  #logo {
+     width: 60px;
+     height: 40px;
+     position: relative;
+     left: 80px;
+     top: 40px;
+   }
+
+  #drive,#explore,#help,#login,#sign{
+      outline: 1px solid yellow;
+      color: #fff;
+      margin-left: 60px;
+      position: relative;
+      top: 20px;
+      left: 600px;
+      font-size: 20px;
+      list-style: none;
+    }
 
 img {
    width: 10%;
@@ -37,3 +66,27 @@ img {
   padding: 0;
 }
 
+    .turn {
+      outline: 1px solid blue;
+      width: 45%;
+      height: 60%;
+      position: relative;
+      left: 53%;
+      top:80px;
+      background-color: #fff;
+    }
+
+    #phone{
+      outline: 1px solid red;
+      width: 20%;
+      position: relative;
+      left: 53%;
+    }
+
+    .ride {
+      outline: 1px solid white;
+      width: 45%;
+      height: 167px;
+      position: relative;
+      top:100px;
+    }
