@@ -1,13 +1,39 @@
 * {
-  margin: 0px;
-  padding: 0px;
   box-sizing: border-box;
-
+  padding: 0;
 }
-
 
 img {
    width: 10%;
    height: 20%;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+.inline-block{
+  display: inline-block;
+}
+/*styles*/
+.watch{
+  font-family: 'Montserrat', sans-serif;
+  height: 430px;
+  width: 100%;
+}
+ /*width="900" height="430"*/
+.text {
+  text-align: justify;
+  position: relative;
+  bottom:260px;
+  height:430px;
+  width: 30%;
+}
+.w{
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom:0;
+}
+#video{
+  margin:0;
+  padding: 0;
+}
 
-  }
